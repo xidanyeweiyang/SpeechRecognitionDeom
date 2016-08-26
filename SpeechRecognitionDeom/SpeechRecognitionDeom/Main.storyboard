@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AWT-Sg-dsU">
+                                <rect key="frame" x="50" y="100" width="500" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="fp9-sz-JVP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHi-0h-Jbb">
+                                <rect key="frame" x="285" y="248" width="30" height="30"/>
+                                <state key="normal" title="开始"/>
+                                <connections>
+                                    <action selector="Start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vq8-Vv-Hie"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOr-SO-UZd">
+                                <rect key="frame" x="333" y="42" width="75" height="30"/>
+                                <state key="normal" title="自定义界面"/>
+                                <connections>
+                                    <action selector="selfUIBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NSn-se-s91"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJJ-ag-XvZ">
+                                <rect key="frame" x="185" y="42" width="90" height="30"/>
+                                <state key="normal" title="科大讯飞界面"/>
+                                <connections>
+                                    <action selector="kedaUIbTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ic7-Op-Lx8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LOr-SO-UZd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="70" id="0iX-pb-9m6"/>
+                            <constraint firstItem="AWT-Sg-dsU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="2nw-WM-C3K"/>
+                            <constraint firstItem="MJJ-ag-XvZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-70" id="PHO-nr-Cep"/>
+                            <constraint firstItem="vHi-0h-Jbb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QPa-iN-jx5"/>
+                            <constraint firstItem="vHi-0h-Jbb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="228" id="WPC-tS-ZNK"/>
+                            <constraint firstItem="LOr-SO-UZd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="ZA6-HI-pU6"/>
+                            <constraint firstItem="AWT-Sg-dsU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="100" id="jnC-oO-jt6"/>
+                            <constraint firstAttribute="trailing" secondItem="AWT-Sg-dsU" secondAttribute="trailing" constant="50" id="kSl-g6-dkh"/>
+                            <constraint firstItem="MJJ-ag-XvZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="zAi-bt-Btw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="content" destination="AWT-Sg-dsU" id="vYE-AJ-DxC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

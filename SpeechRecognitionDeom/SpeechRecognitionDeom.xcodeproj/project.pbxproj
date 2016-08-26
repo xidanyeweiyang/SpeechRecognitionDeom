@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AB58E3F80D06A103C221B49 /* libPods-SpeechRecognitionDeom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 376DD832F1ABB5D19355B941 /* libPods-SpeechRecognitionDeom.a */; };
+		8A147E1F1D6FD02600B0C27C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A147E1E1D6FD02600B0C27C /* main.m */; };
+		8A147E2A1D6FD02600B0C27C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A147E291D6FD02600B0C27C /* Assets.xcassets */; };
+		8A147E2D1D6FD02600B0C27C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A147E2B1D6FD02600B0C27C /* LaunchScreen.storyboard */; };
+		8A147E3A1D6FD0E900B0C27C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A147E351D6FD0E900B0C27C /* ViewController.m */; };
+		8A147E3B1D6FD0E900B0C27C /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A147E371D6FD0E900B0C27C /* ISRDataHelper.m */; };
+		8A147E3C1D6FD0E900B0C27C /* SpeechView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A147E391D6FD0E900B0C27C /* SpeechView.m */; };
+		8A147E3F1D6FD11400B0C27C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A147E3E1D6FD11400B0C27C /* Main.storyboard */; };
+		8A147E421D6FD13A00B0C27C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A147E411D6FD13A00B0C27C /* AppDelegate.m */; };
+		8A147E5C1D6FD29200B0C27C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A147E5B1D6FD29200B0C27C /* CoreTelephony.framework */; };
+		8A147E5E1D6FD2A300B0C27C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A147E5D1D6FD2A300B0C27C /* CoreLocation.framework */; };
+		8A147E601D6FD2B800B0C27C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A147E5F1D6FD2B800B0C27C /* libz.tbd */; };
+		8A147E621D6FD2BE00B0C27C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A147E611D6FD2BE00B0C27C /* QuartzCore.framework */; };
+		8A147E641D6FD2C800B0C27C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A147E631D6FD2C800B0C27C /* AudioToolbox.framework */; };
+		8A147E661D6FD2CE00B0C27C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A147E651D6FD2CE00B0C27C /* SystemConfiguration.framework */; };
+		8A147E681D6FD2D900B0C27C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A147E671D6FD2D900B0C27C /* AddressBook.framework */; };
+		8A147E6A1D6FD2E100B0C27C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A147E691D6FD2E100B0C27C /* AVFoundation.framework */; };
+		8A147E6C1D6FD2E800B0C27C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A147E6B1D6FD2E800B0C27C /* CoreGraphics.framework */; };
+		8A147E6E1D6FD2EE00B0C27C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A147E6D1D6FD2EE00B0C27C /* UIKit.framework */; };
+		8A147E701D6FD2F300B0C27C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A147E6F1D6FD2F300B0C27C /* Foundation.framework */; };
+		8A147E721D6FD31400B0C27C /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A147E711D6FD31400B0C27C /* iflyMSC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		376DD832F1ABB5D19355B941 /* libPods-SpeechRecognitionDeom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpeechRecognitionDeom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		746954B60C4C5A671D90B7FA /* Pods-SpeechRecognitionDeom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechRecognitionDeom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeechRecognitionDeom/Pods-SpeechRecognitionDeom.debug.xcconfig"; sourceTree = "<group>"; };
+		8A147E1A1D6FD02600B0C27C /* SpeechRecognitionDeom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechRecognitionDeom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A147E1E1D6FD02600B0C27C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A147E291D6FD02600B0C27C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A147E2C1D6FD02600B0C27C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A147E2E1D6FD02600B0C27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A147E341D6FD0E900B0C27C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8A147E351D6FD0E900B0C27C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A147E361D6FD0E900B0C27C /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
+		8A147E371D6FD0E900B0C27C /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
+		8A147E381D6FD0E900B0C27C /* SpeechView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechView.h; sourceTree = "<group>"; };
+		8A147E391D6FD0E900B0C27C /* SpeechView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechView.m; sourceTree = "<group>"; };
+		8A147E3E1D6FD11400B0C27C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8A147E401D6FD13A00B0C27C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A147E411D6FD13A00B0C27C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A147E5B1D6FD29200B0C27C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8A147E5D1D6FD2A300B0C27C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8A147E5F1D6FD2B800B0C27C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8A147E611D6FD2BE00B0C27C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8A147E631D6FD2C800B0C27C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8A147E651D6FD2CE00B0C27C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8A147E671D6FD2D900B0C27C /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		8A147E691D6FD2E100B0C27C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8A147E6B1D6FD2E800B0C27C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A147E6D1D6FD2EE00B0C27C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A147E6F1D6FD2F300B0C27C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A147E711D6FD31400B0C27C /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		BD26702D5557C7733ED4F09B /* Pods-SpeechRecognitionDeom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechRecognitionDeom.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeechRecognitionDeom/Pods-SpeechRecognitionDeom.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A147E171D6FD02600B0C27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A147E701D6FD2F300B0C27C /* Foundation.framework in Frameworks */,
+				8A147E6E1D6FD2EE00B0C27C /* UIKit.framework in Frameworks */,
+				8A147E6C1D6FD2E800B0C27C /* CoreGraphics.framework in Frameworks */,
+				8A147E6A1D6FD2E100B0C27C /* AVFoundation.framework in Frameworks */,
+				8A147E681D6FD2D900B0C27C /* AddressBook.framework in Frameworks */,
+				8A147E661D6FD2CE00B0C27C /* SystemConfiguration.framework in Frameworks */,
+				8A147E641D6FD2C800B0C27C /* AudioToolbox.framework in Frameworks */,
+				8A147E621D6FD2BE00B0C27C /* QuartzCore.framework in Frameworks */,
+				8A147E601D6FD2B800B0C27C /* libz.tbd in Frameworks */,
+				8A147E5E1D6FD2A300B0C27C /* CoreLocation.framework in Frameworks */,
+				8A147E5C1D6FD29200B0C27C /* CoreTelephony.framework in Frameworks */,
+				3AB58E3F80D06A103C221B49 /* libPods-SpeechRecognitionDeom.a in Frameworks */,
+				8A147E721D6FD31400B0C27C /* iflyMSC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		704EC852034C0CA05CA7C752 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A147E711D6FD31400B0C27C /* iflyMSC.framework */,
+				8A147E6F1D6FD2F300B0C27C /* Foundation.framework */,
+				8A147E6D1D6FD2EE00B0C27C /* UIKit.framework */,
+				8A147E6B1D6FD2E800B0C27C /* CoreGraphics.framework */,
+				8A147E691D6FD2E100B0C27C /* AVFoundation.framework */,
+				8A147E671D6FD2D900B0C27C /* AddressBook.framework */,
+				8A147E651D6FD2CE00B0C27C /* SystemConfiguration.framework */,
+				8A147E631D6FD2C800B0C27C /* AudioToolbox.framework */,
+				8A147E611D6FD2BE00B0C27C /* QuartzCore.framework */,
+				8A147E5F1D6FD2B800B0C27C /* libz.tbd */,
+				8A147E5D1D6FD2A300B0C27C /* CoreLocation.framework */,
+				8A147E5B1D6FD29200B0C27C /* CoreTelephony.framework */,
+				376DD832F1ABB5D19355B941 /* libPods-SpeechRecognitionDeom.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A147E111D6FD02600B0C27C = {
+			isa = PBXGroup;
+			children = (
+				8A147E1C1D6FD02600B0C27C /* SpeechRecognitionDeom */,
+				8A147E1B1D6FD02600B0C27C /* Products */,
+				DA4E816E5D1DAD2670A26C35 /* Pods */,
+				704EC852034C0CA05CA7C752 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A147E1B1D6FD02600B0C27C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A147E1A1D6FD02600B0C27C /* SpeechRecognitionDeom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A147E1C1D6FD02600B0C27C /* SpeechRecognitionDeom */ = {
+			isa = PBXGroup;
+			children = (
+				8A147E401D6FD13A00B0C27C /* AppDelegate.h */,
+				8A147E411D6FD13A00B0C27C /* AppDelegate.m */,
+				8A147E341D6FD0E900B0C27C /* ViewController.h */,
+				8A147E351D6FD0E900B0C27C /* ViewController.m */,
+				8A147E361D6FD0E900B0C27C /* ISRDataHelper.h */,
+				8A147E371D6FD0E900B0C27C /* ISRDataHelper.m */,
+				8A147E381D6FD0E900B0C27C /* SpeechView.h */,
+				8A147E391D6FD0E900B0C27C /* SpeechView.m */,
+				8A147E3E1D6FD11400B0C27C /* Main.storyboard */,
+				8A147E291D6FD02600B0C27C /* Assets.xcassets */,
+				8A147E2B1D6FD02600B0C27C /* LaunchScreen.storyboard */,
+				8A147E2E1D6FD02600B0C27C /* Info.plist */,
+				8A147E1D1D6FD02600B0C27C /* Supporting Files */,
+			);
+			path = SpeechRecognitionDeom;
+			sourceTree = "<group>";
+		};
+		8A147E1D1D6FD02600B0C27C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A147E1E1D6FD02600B0C27C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA4E816E5D1DAD2670A26C35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				746954B60C4C5A671D90B7FA /* Pods-SpeechRecognitionDeom.debug.xcconfig */,
+				BD26702D5557C7733ED4F09B /* Pods-SpeechRecognitionDeom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A147E191D6FD02600B0C27C /* SpeechRecognitionDeom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A147E311D6FD02600B0C27C /* Build configuration list for PBXNativeTarget "SpeechRecognitionDeom" */;
+			buildPhases = (
+				ADE83A44074A8E8B4E938CE9 /* [CP] Check Pods Manifest.lock */,
+				8A147E161D6FD02600B0C27C /* Sources */,
+				8A147E171D6FD02600B0C27C /* Frameworks */,
+				8A147E181D6FD02600B0C27C /* Resources */,
+				016EC39C2FB6DBD36CD8A371 /* [CP] Embed Pods Frameworks */,
+				4C4082F522B78C50B141EB10 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechRecognitionDeom;
+			productName = SpeechRecognitionDeom;
+			productReference = 8A147E1A1D6FD02600B0C27C /* SpeechRecognitionDeom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A147E121D6FD02600B0C27C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "刘明";
+				TargetAttributes = {
+					8A147E191D6FD02600B0C27C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Q4HU2WK8XU;
+					};
+				};
+			};
+			buildConfigurationList = 8A147E151D6FD02600B0C27C /* Build configuration list for PBXProject "SpeechRecognitionDeom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A147E111D6FD02600B0C27C;
+			productRefGroup = 8A147E1B1D6FD02600B0C27C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A147E191D6FD02600B0C27C /* SpeechRecognitionDeom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A147E181D6FD02600B0C27C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A147E3F1D6FD11400B0C27C /* Main.storyboard in Resources */,
+				8A147E2D1D6FD02600B0C27C /* LaunchScreen.storyboard in Resources */,
+				8A147E2A1D6FD02600B0C27C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		016EC39C2FB6DBD36CD8A371 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeechRecognitionDeom/Pods-SpeechRecognitionDeom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C4082F522B78C50B141EB10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeechRecognitionDeom/Pods-SpeechRecognitionDeom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADE83A44074A8E8B4E938CE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A147E161D6FD02600B0C27C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A147E3C1D6FD0E900B0C27C /* SpeechView.m in Sources */,
+				8A147E3A1D6FD0E900B0C27C /* ViewController.m in Sources */,
+				8A147E3B1D6FD0E900B0C27C /* ISRDataHelper.m in Sources */,
+				8A147E1F1D6FD02600B0C27C /* main.m in Sources */,
+				8A147E421D6FD13A00B0C27C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A147E2B1D6FD02600B0C27C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A147E2C1D6FD02600B0C27C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A147E2F1D6FD02600B0C27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A147E301D6FD02600B0C27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A147E321D6FD02600B0C27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746954B60C4C5A671D90B7FA /* Pods-SpeechRecognitionDeom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SpeechRecognitionDeom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cofco.app.SpeechRecognitionDeom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A147E331D6FD02600B0C27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD26702D5557C7733ED4F09B /* Pods-SpeechRecognitionDeom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SpeechRecognitionDeom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cofco.app.SpeechRecognitionDeom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A147E151D6FD02600B0C27C /* Build configuration list for PBXProject "SpeechRecognitionDeom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A147E2F1D6FD02600B0C27C /* Debug */,
+				8A147E301D6FD02600B0C27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A147E311D6FD02600B0C27C /* Build configuration list for PBXNativeTarget "SpeechRecognitionDeom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A147E321D6FD02600B0C27C /* Debug */,
+				8A147E331D6FD02600B0C27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A147E121D6FD02600B0C27C /* Project object */;
+}
